@@ -12,7 +12,7 @@
 body {
     background: #fff;
     text-align: center;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family:'Hiragino Mincho ProN', serif;
     color: #888;
     font-size: 12px;
 }
@@ -151,14 +151,14 @@ strong { font-weight: bold; }
 }
 
 .presentation h2 {
-    font-family: 'Lobster', cursive;
+    font-family:'Hiragino Mincho ProN', serif;
     font-size: 30px;
     color: #5d5d5d;
 }
 
 .presentation p {
     font-size: 18px;
-    font-style: italic;
+    font-family:'Hiragino Mincho ProN', serif;
 }
 
 
@@ -256,7 +256,7 @@ strong { font-weight: bold; }
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
+    font-family:'Hiragino Mincho ProN', serif;
     font-size: 24px;
     color: #5d5d5d;
 }
