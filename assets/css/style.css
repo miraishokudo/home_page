@@ -157,7 +157,8 @@ strong { font-weight: bold; }
 }
 
 .presentation p {
-    font-size: 18px;
+    text-align: left;
+    font-size: 15px;
     font-family:'Hiragino Mincho ProN', serif;
 }
 
