@@ -1,0 +1,14 @@
+application: mirai-shokudo
+version: 1
+#version: dev-test
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  static_files: _index.html
+  upload: _index.html
+
+- url: /(.*)
+  static_files: \1
+  upload: (.*)
