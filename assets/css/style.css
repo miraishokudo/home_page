@@ -586,11 +586,15 @@ footer .social a:hover { background-position: left top; }
 .about-us-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family:'Hiragino Mincho ProN', serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+
+.about-us-text iframe {
+    padding: 0 30px;
 }
 
 .about-us-text p {
