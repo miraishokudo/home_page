@@ -145,6 +145,15 @@ strong { font-weight: bold; }
     color: #5d5d5d;
 }
 
+.presentation h4 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.presentation .span6 {
+    margin-bottom: 30px;
+}
+
 .presentation p {
     text-align: left;
     font-size: 15px;
@@ -154,6 +163,10 @@ strong { font-weight: bold; }
 .presentation img {
     float: left;
     padding-left: 20px
+}
+
+#book-blog-link {
+    font-size: 14px;
 }
 
 
