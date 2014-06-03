@@ -10,7 +10,7 @@
 
 
 body {
-    background: #fff;
+    background-image: url("../../img/ricepaper2.png");
     text-align: center;
     font-family:'Hiragino Mincho ProN', serif;
     color: #888;
@@ -40,7 +40,6 @@ strong { font-weight: bold; }
 }
 
 .header .navbar-inner {
-    background: #fff;
     border: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -263,7 +262,6 @@ strong { font-weight: bold; }
 .portfolio-title h3 {
     width: 220px;
     margin: 0 auto;
-    background: #fff;
     font-family:'Hiragino Mincho ProN', serif;
     font-size: 24px;
     color: #5d5d5d;
