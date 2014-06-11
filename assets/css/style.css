@@ -13,7 +13,7 @@ body {
     background-image: url("../../img/ricepaper2.png");
     text-align: center;
     font-family:'Hiragino Mincho ProN', serif;
-    color: #888;
+    color: #646464;
     font-size: 12px;
 }
 
@@ -28,7 +28,7 @@ a {
     -ms-transition: all .3s;
 }
 
-a:hover { color: #888; text-decoration: none; }
+a:hover { color: #646464; text-decoration: none; }
 
 strong { font-weight: bold; }
 
@@ -141,7 +141,7 @@ strong { font-weight: bold; }
 .presentation h2 {
     font-family:'Hiragino Mincho ProN', serif;
     font-size: 25px;
-    color: #5d5d5d;
+   
 }
 
 .presentation h4 {
@@ -153,12 +153,6 @@ strong { font-weight: bold; }
     margin-bottom: 30px;
 }
 
-.presentation p {
-    text-align: left;
-    font-size: 15px;
-    font-family:'Hiragino Mincho ProN', serif;
-}
-
 .presentation img {
     float: left;
     padding-left: 20px
@@ -168,6 +162,10 @@ strong { font-weight: bold; }
     font-size: 14px;
 }
 
+#atsurae-notify {
+text-align: left;
+padding-left: 20px;
+}
 
 /* ----- What we do ----- */
 
@@ -256,7 +254,8 @@ strong { font-weight: bold; }
 }
 
 .portfolio-title {
-    background: url(../img/line.png) left center repeat-x;
+    background: url(../img/line.png) left top repeat-x;
+    margin-bottom: 30px;
 }
 
 .portfolio-title h3 {
@@ -264,7 +263,18 @@ strong { font-weight: bold; }
     margin: 0 auto;
     font-family:'Hiragino Mincho ProN', serif;
     font-size: 24px;
-    color: #5d5d5d;
+}
+.portfolio-message {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.9em;
+    margin: 0 auto 30px;
+
+}
+@media screen and (min-width: 600px) {
+    .portfolio-message {
+        width: 600px;
+    }
 }
 
 .portfolio .work {
@@ -1099,10 +1109,6 @@ ul.portfolio-img li {
     .presentation, footer, .testimonials {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .presentation p {
-        line-height: 30px;
     }
 
     .what-we-do .service p, .portfolio .work p {
