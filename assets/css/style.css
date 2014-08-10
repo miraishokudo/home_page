@@ -12,7 +12,7 @@
 body {
     background-image: url("../../img/ricepaper2.png");
     text-align: center;
-    font-family:'Hiragino Mincho ProN', serif;
+    font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     color: #646464;
     font-size: 12px;
 }
@@ -139,7 +139,7 @@ strong { font-weight: bold; }
 }
 
 .presentation h2 {
-    font-family:'Hiragino Mincho ProN', serif;
+    font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 25px;
    
 }
@@ -261,7 +261,7 @@ padding-left: 20px;
 .portfolio-title h3 {
     width: 220px;
     margin: 0 auto;
-    font-family:'Hiragino Mincho ProN', serif;
+    font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 24px;
 }
 .portfolio-message {
@@ -607,7 +607,7 @@ footer .social a:hover { background-position: left top; }
 .about-us-text h4 {
     margin-top: 25px;
     padding: 0 20px;
-    font-family:'Hiragino Mincho ProN', serif;
+    font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
     text-transform: uppercase;
