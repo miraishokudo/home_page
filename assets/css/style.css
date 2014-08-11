@@ -163,10 +163,13 @@ strong { font-weight: bold; }
 }
 
 #atsurae-notify {
-text-align: left;
-padding-left: 20px;
+    text-align: left;
+    padding-left: 20px;
 }
 
+.small_font {
+    font-size: 80%;
+}
 /* ----- What we do ----- */
 
 .what-we-do {
