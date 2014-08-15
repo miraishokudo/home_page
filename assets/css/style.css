@@ -14,7 +14,7 @@ body {
     text-align: center;
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     color: #646464;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .violet { color: #9d426b; }
@@ -175,6 +175,16 @@ strong { font-weight: bold; }
 .small_font {
     font-size: 80%;
 }
+.mid_font {
+    font-size: 88%;
+}
+
+.book_list {
+    text-align: left;
+    line-height: 2.2em;
+    margin: 0 auto 30px;
+
+}
 /* ----- What we do ----- */
 
 .what-we-do {
@@ -274,7 +284,6 @@ strong { font-weight: bold; }
 }
 .portfolio-message {
     text-align: left;
-    font-size: 15px;
     line-height: 1.9em;
     margin: 0 auto 30px;
 

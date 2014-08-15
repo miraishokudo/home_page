@@ -2,7 +2,7 @@
 	<head>
    <link rel="stylesheet" href="assets/css/style.css">
 	</head>
- <body><br/><br/><div class='portfolio-message'>
+ <body><br/><br/><div class='portfolio-message mid_font'>
 
  <?php
   $date = '■8/3 〜 8/16 の展示本<br/>';
