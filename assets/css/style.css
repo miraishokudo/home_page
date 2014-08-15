@@ -21,15 +21,20 @@ body {
 
 a {
     color: #9d426b;
-    text-decoration: none;
+    text-decoration: underline;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
     -ms-transition: all .3s;
 }
 
-a:hover { color: #646464; text-decoration: none; }
+a:hover {
+    color: #c16b92; 
+}
 
+a:visited {
+    color:#431c2e;
+}
 strong { font-weight: bold; }
 
 
@@ -528,26 +533,6 @@ footer .social {
     text-align: right;
 }
 
-footer .social a { display: inline-block; width: 24px; height: 24px; margin: 0 0 0 8px; vertical-align: middle; }
-
-footer .social a.twitter { background: url(../img/social-icons/twitter.png) left bottom no-repeat; }
-footer .social a.dribbble { background: url(../img/social-icons/dribbble.png) left bottom no-repeat; }
-footer .social a.rss { background: url(../img/social-icons/rss.png) left bottom no-repeat; }
-footer .social a.pinterest { background: url(../img/social-icons/pinterest.png) left bottom no-repeat; }
-footer .social a.flickr { background: url(../img/social-icons/flickr.png) left bottom no-repeat; }
-footer .social a.forrst { background: url(../img/social-icons/forrst.png) left bottom no-repeat; }
-footer .social a.vimeo { background: url(../img/social-icons/vimeo.png) left bottom no-repeat; }
-footer .social a.linkedin { background: url(../img/social-icons/linkedin.png) left bottom no-repeat; }
-footer .social a.facebook { background: url(../img/social-icons/facebook.png) left bottom no-repeat; }
-footer .social a.email { background: url(../img/social-icons/email.png) left bottom no-repeat; }
-footer .social a.github { background: url(../img/social-icons/github.png) left bottom no-repeat; }
-footer .social a.behance { background: url(../img/social-icons/behance.png) left bottom no-repeat; }
-footer .social a.googleplus { background: url(../img/social-icons/googleplus.png) left bottom no-repeat; }
-footer .social a.youtube { background: url(../img/social-icons/youtube.png) left bottom no-repeat; }
-footer .social a.skype { background: url(../img/social-icons/skype.png) left bottom no-repeat; }
-footer .social a.tumblr { background: url(../img/social-icons/tumblr.png) left bottom no-repeat; }
-
-footer .social a:hover { background-position: left top; }
 
 
 /* ----- Page title ----- */
@@ -675,25 +660,6 @@ footer .social a:hover { background-position: left top; }
 .team-text .social-links {
     margin-top: 15px;
 }
-
-.team-text .social-links a { display: inline-block; width: 24px; height: 24px; margin: 0 4px; vertical-align: middle; }
-
-.team-text .social-links a.twitter { background: url(../img/social-icons/twitter.png) left top no-repeat; }
-.team-text .social-links a.dribbble { background: url(../img/social-icons/dribbble.png) left top no-repeat; }
-.team-text .social-links a.pinterest { background: url(../img/social-icons/pinterest.png) left top no-repeat; }
-.team-text .social-links a.flickr { background: url(../img/social-icons/flickr.png) left top no-repeat; }
-.team-text .social-links a.forrst { background: url(../img/social-icons/forrst.png) left top no-repeat; }
-.team-text .social-links a.vimeo { background: url(../img/social-icons/vimeo.png) left top no-repeat; }
-.team-text .social-links a.linkedin { background: url(../img/social-icons/linkedin.png) left top no-repeat; }
-.team-text .social-links a.facebook { background: url(../img/social-icons/facebook.png) left top no-repeat; }
-.team-text .social-links a.email { background: url(../img/social-icons/email.png) left top no-repeat; }
-.team-text .social-links a.behance { background: url(../img/social-icons/behance.png) left top no-repeat; }
-.team-text .social-links a.googleplus { background: url(../img/social-icons/googleplus.png) left top no-repeat; }
-.team-text .social-links a.youtube { background: url(../img/social-icons/youtube.png) left top no-repeat; }
-.team-text .social-links a.skype { background: url(../img/social-icons/skype.png) left top no-repeat; }
-.team-text .social-links a.tumblr { background: url(../img/social-icons/tumblr.png) left top no-repeat; }
-
-.team-text .social-links a:hover { background-position: left bottom; }
 
 .team-text h4 {
     margin-top: 20px;
