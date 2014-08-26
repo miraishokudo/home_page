@@ -5,7 +5,20 @@
  <body><div class='portfolio-message mid_font'>
 
  <?php
-  $date = '■8/3 〜 8/16 の展示本<br/>';
+ 	$start_day = new DateTime('2014-08-03');
+ 	$today = new DateTime();
+ 	$interval = $today->diff($start_day)->format('%a');
+ 	$interval_to_first_sunday = floor($interval/14)*14;
+ 	$interval_to_last_saturday = $interval_to_first_sunday + 13;
+
+ 	$book_week_start_day = new DateTime('2014-08-03');
+	$book_week_start_day->add(new DateInterval("P{$interval_to_first_sunday}D"));
+
+ 	$book_week_end_day = new DateTime('2014-08-03');
+	$book_week_end_day->add(new DateInterval("P{$interval_to_last_saturday}D"));
+
+  echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚<br/>");
+
 	$books = <<< BOOKS
 <a href="http://miraitosho.hateblo.jp/entry/2014/07/03/104541" >【銀色の本１】BABYいびつ  - 山口 綾子</a><br/>
 <a href="http://miraitosho.hateblo.jp/entry/2014/06/10/212352" >【銀色の本１】SONGS OF LIFE―Contemporary Remix“万葉集”</a><br/>
@@ -13,7 +26,6 @@
 <a href="http://miraitosho.hateblo.jp/entry/2014/07/09/172742" >【銀色の本１】大阪＋　森山大道</a><br/>
 BOOKS;
 	$books = str_replace(">【", "target='_blank'>【", $books);
-  echo($date);
   echo($books);
 
 /* 
