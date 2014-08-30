@@ -4,7 +4,7 @@ require_once 'google/Google_CalendarService.php';
 
 const CLIENT_ID = '182609602603-dqs9n7scj1hpp2ai0l1a6acd3fiic4nv.apps.googleusercontent.com';
 const SERVICE_ACCOUNT_NAME = '182609602603-dqs9n7scj1hpp2ai0l1a6acd3fiic4nv@developer.gserviceaccount.com';
-define("KEY_FILE", dirname(__FILE__) . '/credentials/googke_api_key.p12');
+define("KEY_FILE", dirname(__FILE__) . '/credentials/google_api_key.p12');
 
 function todays_category(){
 	$client = new Google_Client();
