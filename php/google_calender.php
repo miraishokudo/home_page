@@ -17,8 +17,8 @@ function todays_category(){
 
 	$service = new Google_CalendarService($client);
 	$optParams = array(
-		'timeMin' => date('c'),
-		'timeMax' => date('c', strtotime('+1 day'))
+		'timeMin' => date('c', strtotime('today +10 hour')),
+		'timeMax' => date('c', strtotime('noon'))
 	);
 	$events = $service->events->listEvents('miraishokudo@gmail.com', $optParams);
 	$tmp = str_replace('が読めます' ,'', $events['items'][0]["summary"]);
