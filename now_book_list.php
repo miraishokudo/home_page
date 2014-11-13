@@ -19,7 +19,7 @@
 	 	$book_week_end_day = new DateTime('2014-08-03');
 		$book_week_end_day->add(new DateInterval("P{$interval_to_last_saturday}D"));
 
-	  echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚<br/>");
+	  echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚（背表紙の色で4冊づつ分けています）<br/>");
 	  echo(todays_book_list());
 	?>
 		</div>
