@@ -3,7 +3,7 @@
  	require_once 'html_dom/simple_html_dom.php';
 
 	function todays_book_list(){
-		$book_categorys = array(
+		$book_categories = array(
 			"黒色の本１" => "kuro_1",
 			"黒色の本２" => "kuro_2",
 			"黒色の本３" => "kuro_3",
@@ -48,7 +48,12 @@
 			"オレンジ色の本１" => "orenji_1",
 			"色の本" => ""
 		);
-		$book_category_id = $book_categorys[todays_category()];
-		$books = file_get_html('http://miraitosho.hateblo.jp/entry/2014/04/22/225652')->find("div[id=$book_category_id]", 0);
-		return str_replace(">【", "target='_blank'>【", $books);
+		$book_list = '';
+		foreach (todays_categories() as $japanese) {
+			$books = file_get_html(
+				'http://miraitosho.hateblo.jp/entry/2014/04/22/225652'
+			)->find("div[id=$book_categories[$japanese]]", 0);
+			$book_list .= str_replace(">【", "target='_blank'>【", $books);
+		}
+		return $book_list;
 	}
