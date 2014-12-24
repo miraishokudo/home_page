@@ -21,6 +21,6 @@ function todays_categories(){
 		'timeMax' => date('c', strtotime('noon'))
 	);
 	$events = $service->events->listEvents('miraishokudo@gmail.com', $optParams);
-	preg_match( '/【(.*?)】【(.*?)】が読めます/', $events['items'][0]["summary"], $matches );
-	return array($matches[1], $matches[2]);
+	preg_match( '/【(.*?)】【(.*?)】【(.*?)】が読めます/', $events['items'][0]["summary"], $matches );
+	return array($matches[1], $matches[2], $matches[3]);
 }
