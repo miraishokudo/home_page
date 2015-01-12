@@ -2,6 +2,36 @@
  	require_once 'google_calender.php';
  	require_once 'html_dom/simple_html_dom.php';
 
+	function todays_book_title_and_photo(){
+		$title_src = '';
+		$photo_src = "<div class='book_photo_list'>";
+		foreach (_todays_book_urls() as $url) {
+			$html = file_get_html($url);
+			$title = $html->find('.entry-title-link', 0)->innertext;
+			$title_src .= "<a href='$url' target='_blank'>$title</a><br />";
+
+			$img_url = $html->find('.hatena-fotolife', 0)->src;
+			$photo_src .= "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo'></a>";
+		}
+		$photo_src .= "</div>";
+		return $title_src.$photo_src;
+	}
+
+	function _todays_book_urls(){
+		$urls = array();
+		foreach (todays_categories() as $japanese) {
+			$book_category = convert($japanese);
+			$pattern = '/a href="(.*?)"/';
+			preg_match_all(
+				$pattern, 
+				file_get_html('http://miraitosho.hateblo.jp/entry/2014/04/22/225652')->find("div[id=$book_category]", 0),
+				$matches
+			);
+			foreach ($matches[1] as $url) { array_push($urls, $url); };
+		}
+		return $urls;
+	}
+
  	function convert($japanese){
 		$search = array(
 			'色の本',
@@ -15,15 +45,3 @@
 		);
 		return str_replace($search, $replace, $japanese);
  	}
-
-	function todays_book_list(){
-		$book_list = '';
-		foreach (todays_categories() as $japanese) {
-			$book_category_id = convert($japanese);
-			$books = file_get_html(
-				'http://miraitosho.hateblo.jp/entry/2014/04/22/225652'
-			)->find("div[id=$book_category_id]", 0);
-			$book_list .= str_replace(">【", "target='_blank'>【", $books);
-		}
-		return $book_list;
-	}

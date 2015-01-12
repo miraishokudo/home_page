@@ -20,7 +20,7 @@
 		$book_week_end_day->add(new DateInterval("P{$interval_to_last_saturday}D"));
 
 	  echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚（背表紙の色で4冊づつ分けています）<br/>");
-	  echo(todays_book_list());
+	  echo(todays_book_title_and_photo());
 	?>
 		</div>
   	<script src="assets/js/iframe_height.js"></script>

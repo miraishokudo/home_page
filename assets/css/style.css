@@ -159,6 +159,7 @@ strong { font-weight: bold; }
 }
 
 #book-blog-link {
+    margin-top: 1em;
     font-size: 14px;
 }
 
@@ -179,6 +180,14 @@ strong { font-weight: bold; }
     line-height: 2.2em;
     margin: 0 auto 30px;
 
+}
+
+.book_photo {
+    width:25%; 
+    padding: 5px; /* ガーター */
+    -webkit-box-sizing: border-box;/* 追加 */
+    -moz-box-sizing: border-box;/* 追加 */
+    box-sizing: border-box;/* 追加 */ 
 }
 /* ----- Portfolio ----- */
 
@@ -203,6 +212,11 @@ strong { font-weight: bold; }
     margin: 0 auto 30px;
 
 }
+.book_photo_list {
+    float: left;
+    padding: 10px 10% 0;
+}
+
 @media screen and (min-width: 600px) {
     .portfolio-message {
         width: 600px;
@@ -469,20 +483,17 @@ ul.portfolio-img li {
     .portfolio-page {
         padding-bottom: 50px;
     }
-
     .portfolio_photo {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 20px;
     }
-}
-
-@media (max-width: 480px) {
-
-    .tweet_list {
-        height: 10em;
+    .book_photo {
+        width:50%; 
+        padding: 5px; /* ガーター */
+        float: left;
+        -webkit-box-sizing: border-box;/* 追加 */
+        -moz-box-sizing: border-box;/* 追加 */
+        box-sizing: border-box;/* 追加 */ 
     }
-
 }
 
 
