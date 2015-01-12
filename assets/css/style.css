@@ -158,11 +158,6 @@ strong { font-weight: bold; }
     margin-bottom: 30px;
 }
 
-.presentation img {
-    float: left;
-    padding-left: 20px
-}
-
 #book-blog-link {
     font-size: 14px;
 }
@@ -372,7 +367,6 @@ ul.portfolio-img li {
 
 
 
-
 /* ----- Media queries ----- */
 
 @media (min-width: 980px) and (max-width: 1200px) {
@@ -474,6 +468,12 @@ ul.portfolio-img li {
 
     .portfolio-page {
         padding-bottom: 50px;
+    }
+
+    .portfolio_photo {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
