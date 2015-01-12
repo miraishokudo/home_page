@@ -8,7 +8,6 @@
  *
  */
 
-
 body {
     text-align: center;
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -35,7 +34,6 @@ a:visited {
     color:#431c2e;
 }
 strong { font-weight: bold; }
-
 
 /* ----- Header ----- */
 
@@ -179,7 +177,6 @@ strong { font-weight: bold; }
     text-align: left;
     line-height: 2.2em;
     margin: 0 auto 30px;
-
 }
 
 .book_photo {
@@ -206,23 +203,18 @@ strong { font-weight: bold; }
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 24px;
 }
+
 .portfolio-message {
     text-align: left;
     line-height: 1.9em;
     margin: 0 auto 30px;
 
 }
+
 .book_photo_list {
     float: left;
     padding: 10px 10% 0;
 }
-
-@media screen and (min-width: 600px) {
-    .portfolio-message {
-        width: 600px;
-    }
-}
-
 /* ----- Footer ----- */
 
 footer {
@@ -233,29 +225,6 @@ footer {
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
 }
-
-footer .widget {
-    margin-top: 20px;
-    text-align: left;
-}
-
-footer .widget h4 {
-    margin-top: 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #5d5d5d;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
-}
-
-footer .widget p {
-    line-height: 24px;
-}
-
-footer .widget i {
-    padding-right: 7px;
-}
-
 /* Flickr feed */
 .flickr-feed {
     margin: 16px 0 0 0;
@@ -277,126 +246,26 @@ footer .widget i {
     opacity: 0.7;
 }
 
-
-footer .footer-border {
-    margin-top: 30px;
-    border-top: 1px dashed #ddd;
-}
-
-footer .copyright {
-    margin-top: 15px;
-    text-align: left;
-}
-
-footer .social {
-    margin-top: 10px;
-    text-align: right;
-}
-
-
-
-/* ----- Page title ----- */
-
-.page-title {
-    margin: 0 auto;
-    padding: 30px 0 35px 0;
-    background: #f8f8f8 ;
-    -moz-box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05) inset,
-        0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    -webkit-box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05) inset,
-        0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05) inset,
-        0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    text-align: left;
-}
-
-.page-title h2 {
-    display: inline;
-    margin-left: 10px;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
-    color: #5d5d5d;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
-    vertical-align: middle;
-}
-
-.page-title p {
-    display: inline;
-    margin-left: 5px;
-    font-size: 14px;
-    font-style: italic;
-    vertical-align: middle;
-}
-
-.page-title-icon {
-    margin-left: 20px;
-    font-size: 46px;
-    color: #ccc;
-    vertical-align: middle;
-}
-
-
-/* ----- Google maps ----- */
-
-/********** ----- SERVICES PAGE ----- **********/
-
-/********** ----- PORTFOLIO PAGE ----- **********/
-
-.portfolio-page {
-    margin-top: 20px;
-    padding-bottom: 50px;
-}
 .portfolio-title h3 {
     padding-top: 40px;
 }
 
-.portfolio-page h4.filter-portfolio {
-    margin-top: 35px;
-    padding: 0 20px;
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    color: #5d5d5d;
-    text-align: left;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
-}
-
-ul.portfolio-img {
-    margin: 0;
-    overflow: hidden;
-}
-
-ul.portfolio-img li {
-    list-style: none;
-}
-
-.filter-portfolio a { color: #5d5d5d; text-decoration: none; }
-.filter-portfolio a:hover { color: #9d426b; text-decoration: none; }
-
-.filter-portfolio a#active-imgs { color: #9d426b; }
-.filter-portfolio a#active-imgs:hover { color: #5d5d5d; }
-
-
-
 /* ----- Media queries ----- */
 
-@media (min-width: 980px) and (max-width: 1200px) {
 
+@media screen and (min-width: 600px) {
+    .portfolio-message {
+        width: 600px;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
     .flex-caption {
         max-width: 700px;
-    }
-
-    .what-we-do .service p, .portfolio .work p {
-        padding-left: 10px;
-        padding-right: 10px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-
     .header ul.nav li a {
         padding: 15px 20px 15px 20px;
         font-weight: normal;
@@ -417,11 +286,6 @@ ul.portfolio-img li {
     .flex-caption {
         max-width: 500px;
     }
-
-    .what-we-do .service p, .portfolio .work p {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }
 
 @media (max-width: 767px) {
@@ -431,12 +295,8 @@ ul.portfolio-img li {
         padding-right: 0;
     }
 
-    .slider, .what-we-do, .portfolio {
+    .slider, .portfolio {
         padding: 0 20px;
-    }
-
-    .what-we-do {
-        margin-top: 30px;
     }
 
     .header ul.nav li a {
@@ -460,18 +320,9 @@ ul.portfolio-img li {
         display: none;
     }
 
-    .presentation, footer, .testimonials {
+    .presentation, footer {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .what-we-do .service p, .portfolio .work p {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .what-we-do .service .icon-awesome {
-        padding-top: 10px;
     }
 
     .page-title p {
@@ -495,5 +346,3 @@ ul.portfolio-img li {
         box-sizing: border-box;/* 追加 */ 
     }
 }
-
-
