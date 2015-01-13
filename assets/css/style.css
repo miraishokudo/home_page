@@ -219,6 +219,7 @@ strong { font-weight: bold; }
 
 footer {
     margin: 0 auto;
+    padding-top: 20px;
     padding-bottom: 10px;
     background: #f8f8f8;
     -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
