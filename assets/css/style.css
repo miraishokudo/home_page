@@ -33,7 +33,6 @@ a:hover {
 a:visited {
     color:#431c2e;
 }
-strong { font-weight: bold; }
 
 /* ----- Header ----- */
 
@@ -147,11 +146,6 @@ strong { font-weight: bold; }
    
 }
 
-.presentation h4 {
-    margin: 0px;
-    font-size: 12px;
-}
-
 .presentation .span6 {
     margin-bottom: 30px;
 }
@@ -225,26 +219,6 @@ footer {
     -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
-}
-/* Flickr feed */
-.flickr-feed {
-    margin: 16px 0 0 0;
-    overflow: hidden
-}
-
-.flickr-feed li {
-    float: left;
-    padding: 0 4px 4px 0;
-    list-style: none;
-}
-
-.flickr-feed li img {
-    width: 50px;
-    border: 2px solid #eaeaea;
-}
-
-.flickr-feed a:hover {
-    opacity: 0.7;
 }
 
 .portfolio-title h3 {
