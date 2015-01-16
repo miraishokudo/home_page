@@ -158,9 +158,7 @@
                 </div>
             </div>
             <div id='book_list_title'>
-
 <?php
-require_once 'php/hatena_scraping.php';
 $start_day = new DateTime('2014-08-03');
 $today = new DateTime();
 $interval = $today->diff($start_day)->format('%a');
@@ -177,7 +175,10 @@ echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format
 ?>
             </div>
             <div class='portfolio-message mid_font'>
-<?php echo(todays_book_title_and_photo()); ?>
+<?php
+require_once 'php/hatena_scraping.php';
+echo(todays_book_title_and_photo());
+?>
             </div>
         </div>
         <!-- <div class="presentation container" id='kinka'>

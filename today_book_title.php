@@ -2,14 +2,14 @@
 	<head>
    <link rel="stylesheet" href="assets/css/style.css">
 	</head>
-	<body>
-		<div class='portfolio-message mid_font'>
+	<body style="margin-top: 0px;">
+		<div class='portfolio-message small_font'>
+		■ 只今展示中<br/>
 	<?php
 	 	require_once 'php/hatena_scraping.php';
-	 	 echo(todays_book_title_and_photo());
+	 	echo(todays_book_title());
 	?>
 		</div>
-  	<script src="assets/js/iframe_height.js"></script>
 	</body>
 </html>
 

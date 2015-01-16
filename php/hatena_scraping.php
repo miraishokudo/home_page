@@ -6,37 +6,42 @@
 		$title_src = '';
 		$photo_src = '';
 		foreach (_todays_book_urls() as $url) {
-			$html = file_get_html($url);
-			$title_src .= each_title_src($html);
-			$photo_src .= each_photo_src($html);
+			$title_src .= each_title_src($url);
+			$photo_src .= each_photo_src($url);
 		}
 		return $title_src."<div class='book_photo_list'>".$photo_src."</div>";
 	}
 	function todays_book_title(){
 		$title_src = '';
 		foreach (_todays_book_urls() as $url) {
-			$html = file_get_html($url);
-			$title_src .= each_title_src($html);
+			$title_src .= each_title_src($url);
 		}
 		return $title_src;
 	}
-	function todays_book_photo(){
+	function todays_book_photo_hatena(){
 		$photo_src = '';
 		foreach (_todays_book_urls() as $url) {
-			$html = file_get_html($url);
-			$photo_src .= each_photo_src($html);
+			$photo_src .= each_photo_src_hatena($url);
 		}
 		return $photo_src;
 	}
 
-	function each_title_src($html){
+	function each_title_src($url){
+			$html = file_get_html($url);
 			$title = $html->find('.entry-title-link', 0)->innertext;
 			return "<a href='$url' target='_blank'>$title</a><br />";
 	}
 
-	function each_photo_src($html){
+	function each_photo_src($url){
+			$html = file_get_html($url);
 			$img_url = $html->find('.hatena-fotolife', 0)->src;
 			return "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo'></a>";
+	}
+
+	function each_photo_src_hatena($url){
+			$html = file_get_html($url);
+			$img_url = $html->find('.hatena-fotolife', 0)->src;
+			return "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo_hatena'></a>";
 	}
 
 	function _todays_book_urls(){

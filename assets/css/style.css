@@ -170,12 +170,21 @@ a:visited {
 }
 
 .book_photo {
-    width:25%; 
-    padding: 5px; /* ガーター */
-    -webkit-box-sizing: border-box;/* 追加 */
-    -moz-box-sizing: border-box;/* 追加 */
-    box-sizing: border-box;/* 追加 */ 
+    width: 25%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+.book_photo_hatena {
+    width: 16%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 /* ----- Portfolio ----- */
 
 .portfolio {
