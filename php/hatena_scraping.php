@@ -35,12 +35,14 @@
 	function each_photo_src($url){
 			$html = file_get_html($url);
 			$img_url = $html->find('.hatena-fotolife', 0)->src;
+			$title = $html->find('.entry-title-link', 0)->innertext;
 			return "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo'></a>";
 	}
 
 	function each_photo_src_hatena($url){
 			$html = file_get_html($url);
 			$img_url = $html->find('.hatena-fotolife', 0)->src;
+			$title = $html->find('.entry-title-link', 0)->innertext;
 			return "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo_hatena'></a>";
 	}
 
