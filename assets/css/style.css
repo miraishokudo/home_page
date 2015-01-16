@@ -15,6 +15,13 @@ body {
     font-size: 15px;
 }
 
+body.hatena{
+    text-align: left;
+    font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    color: #333;
+    font-size: 87%;
+}
+
 .violet { color: #9d426b; }
 
 a {
