@@ -12,6 +12,22 @@
 		}
 		return $title_src."<div class='book_photo_list'>".$photo_src."</div>";
 	}
+	function todays_book_title(){
+		$title_src = '';
+		foreach (_todays_book_urls() as $url) {
+			$html = file_get_html($url);
+			$title_src .= each_title_src($html);
+		}
+		return $title_src;
+	}
+	function todays_book_photo(){
+		$photo_src = '';
+		foreach (_todays_book_urls() as $url) {
+			$html = file_get_html($url);
+			$photo_src .= each_photo_src($html);
+		}
+		return $photo_src;
+	}
 
 	function each_title_src($html){
 			$title = $html->find('.entry-title-link', 0)->innertext;
