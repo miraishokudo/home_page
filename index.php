@@ -157,6 +157,7 @@
                     </div>
                 </div>
             </div>
+            <div id='book_list_title'>
 
 <?php
 require_once 'php/hatena_scraping.php';
@@ -172,8 +173,9 @@ $book_week_start_day->add(new DateInterval("P{$interval_to_first_sunday}D"));
 $book_week_end_day = new DateTime('2014-08-03');
 $book_week_end_day->add(new DateInterval("P{$interval_to_last_saturday}D"));
 
-echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚（背表紙の色で4冊づつ分けています）<br/>");
+echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚（背表紙の色で4冊づつ分けています）");
 ?>
+            </div>
             <div class='portfolio-message mid_font'>
 <?php echo(todays_book_title_and_photo()); ?>
             </div>
