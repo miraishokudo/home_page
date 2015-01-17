@@ -1,5 +1,21 @@
 
 <!DOCTYPE html>
+<?php
+    require_once 'php/hatena_scraping.php';
+    $books_src = todays_book_title_and_photo();
+
+    $start_day = new DateTime('2014-08-03');
+    $today = new DateTime();
+    $interval = $today->diff($start_day)->format('%a');
+    $interval_to_first_sunday = floor($interval/14)*14;
+    $interval_to_last_saturday = $interval_to_first_sunday + 13;
+
+    $book_week_start_day = new DateTime('2014-08-03');
+    $book_week_start_day = $book_week_start_day->add(new DateInterval("P{$interval_to_first_sunday}D"))->format('Y/m/d');
+
+    $book_week_end_day = new DateTime('2014-08-03');
+    $book_week_end_day = $book_week_end_day->add(new DateInterval("P{$interval_to_last_saturday}D"))->format('Y/m/d');
+?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -158,28 +174,9 @@
                 </div>
             </div>
             <div id='book_list_title'>
-<?php
-$start_day = new DateTime('2014-08-03');
-$today = new DateTime();
-$interval = $today->diff($start_day)->format('%a');
-$interval_to_first_sunday = floor($interval/14)*14;
-$interval_to_last_saturday = $interval_to_first_sunday + 13;
-
-$book_week_start_day = new DateTime('2014-08-03');
-$book_week_start_day->add(new DateInterval("P{$interval_to_first_sunday}D"));
-
-$book_week_end_day = new DateTime('2014-08-03');
-$book_week_end_day->add(new DateInterval("P{$interval_to_last_saturday}D"));
-
-echo("■{$book_week_start_day->format('Y/m/d')} 〜 {$book_week_end_day->format('Y/m/d')} の本棚（背表紙の色で4冊づつ分けています）");
-?>
+                ■<?=$book_week_start_day?> 〜 <?=$book_week_end_day?>の本棚（背表紙の色で4冊づつ分けています）
             </div>
-            <div class='portfolio-message mid_font'>
-<?php
-require_once 'php/hatena_scraping.php';
-echo(todays_book_title_and_photo());
-?>
-            </div>
+            <div class='portfolio-message mid_font'><?=$books_src?></div>
         </div>
         <!-- <div class="presentation container" id='kinka'>
             <div class="portfolio-title">
