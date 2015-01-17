@@ -17,6 +17,5 @@
 		<?=$photo_src?><div style="clear:both;"></div><br/>
 		背表紙の色で分けています。各記事のタイトル【○色の本】を御覧ください。<br /> <a href="http://miraitosho.hateblo.jp/entry/2014/04/22/225652">蔵書一覧はこちら</a><br /> 　<br /> 未来図書のテーマは、”知らない世界も面白い”です。<br /> 新しい世界、気になる本が見つかれば幸いです。<br /> 　<br /> ※<a href="http://miraishokudo.com">未来食堂</a>は2015年末OPENの予定です。<br /> おまたせしております、今しばらくお待ちください。
 	</body>
-  <script src="assets/js/iframe_height.js"></script>
 </html>
 
