@@ -340,11 +340,11 @@ footer {
         margin-bottom: 20px;
     }
     .book_photo {
-        width:50%; 
-        padding: 5px; /* ガーター */
+        width:50%;
+        padding: 5px;
         float: left;
-        -webkit-box-sizing: border-box;/* 追加 */
-        -moz-box-sizing: border-box;/* 追加 */
-        box-sizing: border-box;/* 追加 */ 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 }

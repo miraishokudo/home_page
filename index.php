@@ -226,6 +226,5 @@ echo(todays_book_title_and_photo());
       ga('create', 'UA-50612267-1', 'miraishokudo.com');
       ga('require', 'displayfeatures');
       ga('send', 'pageview');
-
     </script>
 </html>
