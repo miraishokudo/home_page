@@ -216,7 +216,6 @@ echo(todays_book_title_and_photo());
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="assets/js/jquery.ui.map.min.js"></script>
         <script src="assets/js/scripts.js"></script>
-        <script src="assets/js/iframe_height.js"></script>
     </body>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
