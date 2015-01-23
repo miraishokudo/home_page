@@ -6,7 +6,7 @@
 <html>
 	<meta charset="utf-8"/>
 	<head>
-   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body class='hatena'>
 		<strong>■当ブログについて</strong><br/>
