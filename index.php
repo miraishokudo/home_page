@@ -19,6 +19,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="未来食堂は、あなたの希望に合わせておかずをあつらえる小さな定食屋です。また、未来食堂では珍しい本を閲覧できます。画集や写真集が多く飽きさせません。" />
         <title>未来食堂 - あなたのふつうを誂えます</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,7 +30,7 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/flexslider.css">
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
