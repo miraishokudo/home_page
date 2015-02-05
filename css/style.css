@@ -344,7 +344,8 @@ footer {
         padding-bottom: 50px;
     }
     .portfolio_photo {
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
+        width: 60%;
     }
     .book_photo {
         width:50%;
