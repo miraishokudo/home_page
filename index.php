@@ -88,27 +88,21 @@
 
         <!-- Slider -->
         <div class="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="span10 offset1">
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li data-thumb="assets/img/slider/1.jpg">
-                                    <img alt="未来食堂" src="assets/img/slider/1.jpg">
-                                    <p class="flex-caption">未来食堂は、小さな食堂です（2015年の秋ごろ開店予定)</p>
-                                </li>
-                                <li>
-                                    <img alt="未来食堂 誂え" src="assets/img/slider/whiteboard.jpg" >
-                                    <p class="flex-caption">未来食堂は、あなただけの”誂え（あつらえ）”を作ります</p>
-                                </li>
-                                <li>
-                                    <img alt="未来食堂 未来図書" src="assets/img/slider/2.jpg" >
-                                    <p class="flex-caption">未来食堂では、来るたびに知らない本と出会えます</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li data-thumb="assets/img/slider/meishi_slider.jpg">
+                        <img alt="未来食堂" src="assets/img/slider/meishi_slider.jpg">
+                        <p class="flex-caption">未来食堂は、小さな食堂です（2015年の秋ごろ開店予定)</p>
+                    </li>
+                    <li data-thumb="assets/img/slider/whiteboard_slider.jpg">
+                        <img alt="未来食堂 誂え" src="assets/img/slider/whiteboard_slider.jpg" >
+                        <p class="flex-caption">未来食堂は、あなただけの”誂え（あつらえ）”を作ります</p>
+                    </li>
+                    <li data-thumb="assets/img/slider/book_slider.jpg">
+                        <img alt="未来食堂 未来図書" src="assets/img/slider/book_slider.jpg" >
+                        <p class="flex-caption">未来食堂では、来るたびに知らない本と出会えます</p>
+                    </li>
+                </ul>
             </div>
         </div>
 

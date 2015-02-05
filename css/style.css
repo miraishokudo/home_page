@@ -105,12 +105,12 @@ a:visited {
 /* ----- Slider ----- */
 
 .slider {
-    margin: 0 auto;
+    margin: 90px auto 150px;
 }
 
 .flexslider {
-    margin-top: 45px;
-    margin-bottom: 55px;
+    width: 600px;
+    margin: 0 auto;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -297,8 +297,15 @@ footer {
         padding-right: 0;
     }
 
-    .slider, .portfolio {
+    .portfolio {
         padding: 0 20px;
+    }
+    .slider {
+        padding: 0 20px;
+        margin: 40px auto 150px;
+    }
+    .flexslider {
+        width: auto;
     }
 
     .header ul.nav li a {
