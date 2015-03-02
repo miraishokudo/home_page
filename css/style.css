@@ -63,6 +63,13 @@ a:visited {
     text-align: left;
 }
 
+.header h2 {
+    float: right;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: left;
+}
+
 .header a.brand {
     display: inline-block;
     text-indent: -9999px;
@@ -145,12 +152,6 @@ a:visited {
 .presentation {
     margin-top: 30px;
     margin-bottom: 50px;
-}
-
-.presentation h2 {
-    font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    font-size: 25px;
-   
 }
 
 #book-blog-link {
