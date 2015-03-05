@@ -197,6 +197,9 @@ a:visited {
 .float_right {
     float: right;
 }
+.text_center {
+    text-align: center;
+}
 
 .release_category_and_time {
     text-align: left;
