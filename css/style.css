@@ -265,7 +265,7 @@ footer {
 
 /* ----- Media queries ----- */
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) {
     /* very small */
     .book_photo_hatena {
         width: 33%; 
@@ -280,19 +280,25 @@ footer {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
     .portfolio-message {
         width: 600px;
     }
 }
 
-@media (min-width: 980px) and (max-width: 1200px) {
+@media (min-width: 980px) {
     .flex-caption {
         max-width: 700px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+    .flex-caption {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 979px) {
     .header ul.nav li a {
         padding: 15px 20px 15px 20px;
         font-weight: normal;
@@ -300,6 +306,8 @@ footer {
         -moz-border-radius: 0;
         -webkit-border-radius: 0;
         border-radius: 0;
+        background: #f8f8f8;
+        color: #646464 ;
     }
 
     .header ul.nav li.current-page a {
@@ -309,14 +317,9 @@ footer {
     .header ul.nav li a i, .header ul.nav li a br {
         display: none;
     }
-
-    .flex-caption {
-        max-width: 500px;
-    }
 }
 
 @media (max-width: 767px) {
-
     body {
         padding-left: 0;
         padding-right: 0;
@@ -331,23 +334,6 @@ footer {
     }
     .flexslider {
         width: auto;
-    }
-
-    .header ul.nav li a {
-        padding: 15px 20px 15px 20px;
-        font-weight: normal;
-        text-align: left;
-        -moz-border-radius: 0;
-        -webkit-border-radius: 0;
-        border-radius: 0;
-    }
-
-    .header ul.nav li.current-page a {
-        padding-top: 15px;
-    }
-
-    .header ul.nav li a i, .header ul.nav li a br {
-        display: none;
     }
 
     .flex-caption {
