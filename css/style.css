@@ -206,11 +206,11 @@ a:visited {
     padding: 40px 0 0 40px;
 }
 
-.release h3 {
+.info h3 {
     font-size: 20px;
 }
 
-.release_sentence {
+.info_sentence {
     padding: 0 130px 50px;
     text-align: left;
 }
