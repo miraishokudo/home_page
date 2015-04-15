@@ -205,6 +205,26 @@ a:visited {
     text-align: left;
     padding: 40px 0 0 40px;
 }
+.bold_font {
+    font-weight: bold;
+}
+
+.background_color_morning {
+    background-color: #eff7ff;
+}
+
+.background_color_lunch {
+    background-color: #ffffef;
+}
+
+.background_color_default {
+    background-color: #ffeaff;
+}
+
+.menu_time_box {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
 
 .info h3 {
     font-size: 20px;
@@ -214,6 +234,7 @@ a:visited {
     padding: 0 130px 50px;
     text-align: left;
 }
+
 /* ----- Portfolio ----- */
 
 .portfolio {
@@ -230,13 +251,13 @@ a:visited {
     margin: 0 auto;
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-size: 24px;
+    padding-top: 40px;
 }
 
 .portfolio-message {
     text-align: left;
     line-height: 1.9em;
     margin: 0 auto 30px;
-
 }
 
 .book_photo_list {
@@ -257,10 +278,6 @@ footer {
     -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
-}
-
-.portfolio-title h3 {
-    padding-top: 40px;
 }
 
 /* ----- Media queries ----- */
