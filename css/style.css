@@ -63,12 +63,20 @@ a:visited {
     text-align: left;
 }
 
+.access {
+    line-height: 20px;
+    padding-right: 15px;
+}
+
 .header h2 {
-    float: right;
     font-weight: normal;
     line-height: 20px;
     text-align: left;
     margin-bottom: 0px;
+}
+
+h2, h3 {
+    font-weight: bold;
 }
 
 .header a.brand {
@@ -197,14 +205,11 @@ a:visited {
 .float_right {
     float: right;
 }
+
 .text_center {
     text-align: center;
 }
 
-.release_category_and_time {
-    text-align: left;
-    padding: 40px 0 0 40px;
-}
 .bold_font {
     font-weight: bold;
 }
