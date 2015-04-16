@@ -64,12 +64,6 @@ a:visited {
     box-shadow: none;
 }
 
-.header h1 {
-    float: left;
-    margin: 0;
-    text-align: left;
-}
-
 .access {
     line-height: 20px;
     padding-top: 5px;
@@ -85,15 +79,6 @@ a:visited {
 
 h2, h3 {
     font-weight: bold;
-}
-
-.header a.brand {
-    display: inline-block;
-    text-indent: -9999px;
-    width: 280px;
-    height: 63px;
-    padding: 0 0 30px;
-    background: url(../img/logo.png) 20px top no-repeat;
 }
 
 #logo {
