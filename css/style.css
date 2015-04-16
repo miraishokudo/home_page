@@ -237,8 +237,8 @@ h2, h3 {
 }
 
 .info_sentence {
-    padding: 0 130px 50px;
-    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 40px;
 }
 
 /* ----- Portfolio ----- */
