@@ -346,9 +346,6 @@ footer {
         padding-right: 0;
     }
 
-    .portfolio {
-        padding: 0 20px;
-    }
     .slider {
         padding: 0 20px;
         margin: 40px auto 150px;
@@ -374,10 +371,6 @@ footer {
 
     .portfolio-page {
         padding-bottom: 50px;
-    }
-    .portfolio_photo {
-        margin: 0 auto 20px;
-        width: 60%;
     }
     .book_photo {
         width:50%;
