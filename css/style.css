@@ -217,14 +217,6 @@ ul.nav li a i {
     float: right;
 }
 
-.text_center {
-    text-align: center;
-}
-
-.bold_font {
-    font-weight: bold;
-}
-
 .background_color_morning {
     background-color: #eff7ff;
 }
@@ -235,6 +227,10 @@ ul.nav li a i {
 
 .background_color_default {
     background-color: #fff4ff;
+}
+
+.food_sub_menu {
+    padding-bottom: 10px;
 }
 
 .menu_time_box {
