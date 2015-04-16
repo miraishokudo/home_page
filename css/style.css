@@ -43,6 +43,13 @@ a:visited {
 
 /* ----- Header ----- */
 
+.navbar-nav li a {
+    text-decoration: none;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
 .header .navbar {
     margin-bottom: 0;
 }
@@ -89,34 +96,37 @@ h2, h3 {
     background: url(../img/logo.png) 20px top no-repeat;
 }
 
-.header ul.nav {
+#logo {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 280px;
+    height: 63px;
+    padding: 0 0 30px;
+    background: url(../img/logo.png) 20px top no-repeat;
+}
+
+ul.nav {
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.header ul.nav li a {
-    padding: 10px 20px;
+ul.nav li a {
     color: #5d5d5d;
     text-shadow: none;
 }
 
-.header ul.nav li.current-page a {
-    padding-top: 25px;
-    border-top: 5px solid #9d426b;
-    background: #f8f8f8;
+ul.nav li:hover {
+    background-color: #2e305b !important;
 }
 
-.header ul.nav li a:hover {
-    background: #9d426b;
-    color: #fff;
+ul.nav li a:hover, ul.nav li a:hover i{
+    color: #ffffff !important;
 }
 
-.header ul.nav li a i {
+ul.nav li a i {
     line-height: 35px;
     color: #aaa;
 }
-
-.header ul.nav li a:hover i { color: #fff; }
 
 
 /* ----- Slider ----- */
@@ -309,40 +319,28 @@ footer {
     }
 }
 
-@media (min-width: 980px) {
-    .flex-caption {
-        max-width: 700px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) {
     .flex-caption {
         max-width: 500px;
     }
-}
-
-@media (max-width: 979px) {
-    .header ul.nav li a {
-        padding: 15px 20px 15px 20px;
-        font-weight: normal;
-        text-align: left;
-        -moz-border-radius: 0;
-        -webkit-border-radius: 0;
-        border-radius: 0;
-        background: #f8f8f8;
-        color: #646464 ;
-    }
-
-    .header ul.nav li.current-page a {
-        padding-top: 15px;
-    }
-
-    .header ul.nav li a i, .header ul.nav li a br {
-        display: none;
+    .navbar-nav {
+        float: right;
     }
 }
 
 @media (max-width: 767px) {
+    ul.nav li a {
+        display: block;
+        padding: 15px 20px 15px 20px;
+        background: #ecf1fe ;
+        text-align: left;
+        margin-bottom: 2px;
+    }
+
+    .navbar-nav {
+        margin: 7.5px 0px;
+    }
+
     body {
         padding-left: 0;
         padding-right: 0;
