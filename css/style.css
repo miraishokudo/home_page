@@ -31,12 +31,12 @@ a {
     -ms-transition: all .3s;
 }
 
-a:hover {
-    color: #898cc4;
-}
-
 a:visited {
     color:#212241;
+}
+
+a:hover {
+    color: #898cc4;
 }
 
 /* ----- Header ----- */
