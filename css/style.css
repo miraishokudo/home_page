@@ -23,7 +23,7 @@ body.hatena{
 }
 
 a {
-    color: #9d426b;
+    color: #484b8f;
     text-decoration: underline;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -32,11 +32,11 @@ a {
 }
 
 a:hover {
-    color: #c16b92; 
+    color: #898cc4;
 }
 
 a:visited {
-    color:#431c2e;
+    color:#212241;
 }
 
 /* ----- Header ----- */
