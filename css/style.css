@@ -157,8 +157,12 @@ ul.nav li a i {
     margin-bottom: 50px;
 }
 
-#book-blog-link {
-    margin-top: 1em;
+.padding_top_10px {
+    padding-top: 10px;
+}
+
+.book-blog-link {
+    margin-top: 40px;
     font-size: 14px;
 }
 
