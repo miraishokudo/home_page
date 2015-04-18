@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="assets/css/flexslider.css">
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="assets/css/headshrinker.min.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -28,51 +29,30 @@
     </head>
 
     <body>
-        <!-- Header -->
-        <div class="container header">
-            <div class='access mid_font text-left pull-right'>
-                千代田区一ツ橋2-6-2&nbsp;&nbsp;日本教育会館B1<br/>
-                9〜22時（平日ランチ11〜14時）日曜定休<br/>
-                神保町駅徒歩3分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;050-5583-6650
-            </div>
-        </div>
 
-        <!-- http://designup.jp/bootstrap3-navbar-189/ -->
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu-1">
-                    <span class="sr-only">miraishokudo</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <!-- タイトルなどのテキスト -->
-                    <a href="index.html" class='pull-left' id="logo">未来食堂 未来図書 誂え あつらえ 定食屋</a>
-                </div>
+        <header>
+            <img class="logo" src="img/logo.png" alt="Logo" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#system" class='headshrinker-menu-line'>システム</a>
+                    </li>
+                    <li>
+                        <a href="#menu" class='headshrinker-menu-line'>メニュー</a>
+                    </li>
+                    <li>
+                        <a href="#tosho" class='headshrinker-menu-line'>未来図書</a>
+                    </li>
+                    <li>
+                        <a href="http://miraishokudo.hatenablog.com/" target="_blank" class='headshrinker-menu-line'>日記</a>
+                    </li>
+                    <li>
+                        <a href="#makanai" class='headshrinker-menu-line'>まかない</a>
+                    </li>
+                </ul>
+            </nav>
+        </header><div style="clear: both;"></div>
 
-                <!-- グローバルナビの中身 -->
-                <div class="collapse navbar-collapse" id="nav-menu-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#system"><i class="fa fa-child fa-lg hidden-xs"></i><br class='hidden-xs'/>システム</a>
-                        </li>
-                        <li>
-                            <a href="#menu"><i class="fa fa-birthday-cake fa-lg hidden-xs"></i><br class='hidden-xs'/>メニュー</a>
-                        </li>
-                        <li>
-                            <a href="#tosho"><i class="fa fa-book fa-lg hidden-xs"></i><br class='hidden-xs'/>未来図書</a>
-                        </li>
-                        <li>
-                            <a href="http://miraishokudo.hatenablog.com/" target="_blank"><i class="fa fa-pencil fa-lg hidden-xs"></i><br class='hidden-xs'/>日記</a>
-                        </li>
-                        <li>
-                            <a href="#makanai"><i class="fa fa-gift fa-lg hidden-xs"></i><br class='hidden-xs'/>まかない</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!-- Slider -->
         <div class="slider">
             <div class="flexslider">
@@ -108,10 +88,11 @@
                 あなたにとっての"ふつう"、教えてください。</br></br>
                 未来食堂は あなたの"ふつう"をあつらえます。<br/><br/><br/>
             <div class='small_font'>※あつらえ【誂え】･･･&nbsp;頼むこと。特に注文して作ってもらうこと。また、そのもの。<br/>（日本国語大辞典第二版より） </div>
+            <div id='system'></div>
             </div>
         </div>
 
-        <div class="presentation container" id='system'>
+        <div class="presentation container">
             <div class="portfolio-title">
                 <h3>システム</h3>
             </div>
@@ -123,10 +104,11 @@
                 <div class="row">
                     <div class='col-sm-offset-2 small_font'id='atsurae-notify'>※価格は変更する可能性があります。</div>
                 </div>
+                <div id='menu'></div>
             </div>
         </div>
 
-        <div class="presentation container" id='menu'>
+        <div class="presentation container">
             <div class="portfolio-title">
                 <h3>メニュー</h3>
                 <span class='mid_font'>色々あっても 温かいご飯を食べればなんとかなる</span>
@@ -166,24 +148,27 @@
                         <span class='col-xs-11 col-sm-9'>コーヒor紅茶。350円。おにぎり100円。</span>
                     </div>
                 </div>
+                <div id='info'></div>
             </div>
         </div>
-        <div class="presentation container" id='info'>
+        <div class="presentation container">
             <div class="portfolio-title">
                 <h3>ご案内</h3>
             </div>
             <div class='portfolio-message'>未来食堂はまだありません。2015年秋以降、開店の予定です。どうぞ今しばらくお待ちください。
             開店までの様子は<a href="http://miraishokudo.hatenablog.com/"target='brank'>未来食堂日記</a>にてお楽しみくださいませ。</div>
             <img src='img/blueprint.png'>
+            <div id='makanai'></div>
         </div>
-        <div class="presentation container" id='makanai'>
+        <div class="presentation container">
             <div class="portfolio-title">
                 <h3>まかない</h3>
                 <span class='mid_font'>本当のまかない 食べてみませんか？</span>
             </div>
             <div class='portfolio-message'>50分のお手伝いで一食サービスいたします。<br/>詳しくは<a href="makanai/info.html"target='brank'>まかないのページ</a>を御覧ください。</div>
+            <div id='tosho'></div>
         </div>
-        <div class="presentation container" id='tosho'>
+        <div class="presentation container">
             <div class="portfolio-title">
                 <h3>未来図書</h3>
                 <span class='mid_font'>知らない世界、置いてます</span>
@@ -237,6 +222,7 @@
 
         <!-- Javascript -->
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/jquery.headshrinker.min.js"></script> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.flexslider.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>

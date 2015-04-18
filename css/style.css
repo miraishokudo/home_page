@@ -41,26 +41,6 @@ a:hover {
 
 /* ----- Header ----- */
 
-.navbar-nav li a {
-    text-decoration: none;
-}
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
-}
-.header .navbar {
-    margin-bottom: 0;
-}
-
-.header .navbar-inner {
-    border: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
 
 .access {
     line-height: 20px;
@@ -79,38 +59,52 @@ h2, h3 {
     font-weight: bold;
 }
 
-#logo {
-    display: inline-block;
-    text-indent: -9999px;
-    width: 280px;
-    height: 63px;
-    padding: 0 0 30px;
-    background: url(../img/logo.png) 20px top no-repeat;
+header img {
+    float: left;
+}
+header nav {
+    float: left;
+    width: 70%;
+    text-align: left;
+    margin-left: 20px;
+}
+header nav ul {
+    padding: 20px 0;
+    margin: 20px 0 0;
+    list-style-type: none;
 }
 
-ul.nav {
-    font-size: 14px;
-    text-transform: uppercase;
+header nav ul li {
+    display: inline;
 }
 
-ul.nav li a {
-    color: #5d5d5d;
-    text-shadow: none;
+header nav ul li a{
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #212241 !important;
 }
 
-ul.nav li:hover {
-    background-color: #2e305b !important;
+header nav  ul li a:hover{
+    background-color: #2e305b;
+    color: #ffffff !important;
+    text-decoration: none;
 }
 
-ul.nav li a:hover, ul.nav li a:hover i{
+header {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 15px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.headshrinker .headshrunk .headshrinker-menu a {
+    text-decoration: none;
+}
+.headshrinker .headshrunk .headshrinker-menu a:hover {
+    background-color: #2e305b;
     color: #ffffff !important;
 }
-
-ul.nav li a i {
-    line-height: 35px;
-    color: #aaa;
-}
-
 
 /* ----- Slider ----- */
 
@@ -148,7 +142,6 @@ ul.nav li a i {
     color: #eaeaea;
     text-align: left;
 }
-
 
 /* ----- Presentation ----- */
 
@@ -260,7 +253,7 @@ ul.nav li a i {
 .portfolio-message {
     text-align: left;
     line-height: 1.9em;
-    margin: 0 auto 30px;
+    margin: 0 auto;
 }
 
 .book_photo_list {
