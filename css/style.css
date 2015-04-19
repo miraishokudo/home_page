@@ -69,9 +69,9 @@ header nav {
     margin-left: 20px;
 }
 header nav ul {
-    padding: 20px 0;
-    margin: 20px 0 0;
+    padding: 35px 0;
     list-style-type: none;
+    margin-bottom: 0px;
 }
 
 header nav ul li {
@@ -79,7 +79,7 @@ header nav ul li {
 }
 
 header nav ul li a{
-    padding: 20px 15px;
+    padding: 35px 15px 42px;
     text-decoration: none;
     color: #212241 !important;
 }
@@ -91,8 +91,7 @@ header nav  ul li a:hover{
 }
 
 header {
-    border-bottom: 1px solid #e6e6e6;
-    padding: 20px 15px;
+    padding: 20px 15px 21px;
     position: fixed;
     top: 0px;
     z-index: 99999;

@@ -8,9 +8,10 @@ $(document).ready(function() {
 $(function(){
    $('a[href^=#]').click(function() {
       var href= $(this).attr("href");
-      if (href != '#nav') {
-        var target = $(href);
-        var position = target.offset().top;
+      var _target = $(href);
+
+      if (href != '#nav' && (typeof _target !== "undefined")) {
+        var position = _target.offset().top;
         $('body,html').animate({scrollTop:position}, 500, 'swing');
         false;
       }
