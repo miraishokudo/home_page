@@ -134,8 +134,7 @@ header {
 
 .flex-caption {
     position: absolute;
-    bottom: 20px;
-    max-width: 920px;
+    bottom: 40%;
     padding: 10px 20px;
     margin: 0;
     background: #1d1d1d; /* browsers that don't support rgba */
@@ -308,9 +307,6 @@ footer .map {
 }
 
 @media (min-width: 768px) {
-    .flex-caption {
-        max-width: 500px;
-    }
     .navbar-nav {
         float: right;
     }
@@ -343,7 +339,7 @@ footer .map {
     }
 
     .flex-caption {
-        display: none;
+        bottom: 10%;
     }
 
     .presentation, footer {
