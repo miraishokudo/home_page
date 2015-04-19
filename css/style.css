@@ -294,8 +294,14 @@ footer .map {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+
     #tosho_calender{
         width: 100%;
+    }
+
+    .flex-caption {
+        font-size: 12px;
+        bottom: 10%;
     }
 }
 
