@@ -93,6 +93,9 @@ header nav  ul li a:hover{
 header {
     border-bottom: 1px solid #e6e6e6;
     padding: 20px 15px;
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
     display: block;
     float: left;
     width: 100%;
@@ -109,11 +112,11 @@ header {
 /* ----- Slider ----- */
 
 .slider {
-    margin: 20px auto 100px;
+    margin: 0px auto 100px;
 }
 
 .flexslider {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
