@@ -11,7 +11,7 @@
 body {
     text-align: center;
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    color: #646464;
+    color: #333333;
     font-size: 15px;
 }
 
@@ -32,7 +32,7 @@ a {
 }
 
 a:visited {
-    color:#212241;
+    color:#000033;
 }
 
 a:hover {
@@ -44,7 +44,7 @@ a:hover {
 
 .access {
     line-height: 20px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-right: 15px;
 }
 
@@ -81,11 +81,11 @@ header nav ul li {
 header nav ul li a{
     padding: 35px 15px 42px;
     text-decoration: none;
-    color: #212241 !important;
+    color: #000033 !important;
 }
 
 header nav  ul li a:hover{
-    background-color: #2e305b;
+    background-color: #000033;
     color: #ffffff !important;
     text-decoration: none;
 }
@@ -99,13 +99,19 @@ header {
     float: left;
     width: 100%;
 }
+.headshrinker .headshrunk {
+    background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.9) !important;
+}
 
 .headshrinker .headshrunk .headshrinker-menu a {
     text-decoration: none;
 }
 .headshrinker .headshrunk .headshrinker-menu a:hover {
-    background-color: #2e305b;
+    background-color: #000033;
     color: #ffffff !important;
+}
+.headshrinker .headshrunk a.headshrinker-reveal {
+    top: 0px !important;
 }
 
 /* ----- Slider ----- */
@@ -225,6 +231,7 @@ header {
 
 .info h3 {
     font-size: 20px;
+    color: #2D2D2D;
 }
 
 .info_sentence {
@@ -247,8 +254,9 @@ header {
     width: 220px;
     margin: 0 auto;
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     padding-top: 40px;
+    color: #2D2D2D;
 }
 
 .portfolio-message {
@@ -270,7 +278,7 @@ header {
 footer {
     margin: 40px auto 0px;
     padding-bottom: 20px;
-    background: #f7f7fb;
+    background: #E9E9E9;
     -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
@@ -281,6 +289,7 @@ footer .map {
 }
 .widget {
     padding-top: 20px;
+    color: #2D2D2D;
 }
 /* ----- Media queries ----- */
 
