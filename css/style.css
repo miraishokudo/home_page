@@ -20,6 +20,7 @@ body.hatena{
     font-family:Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     color: #333;
     font-size: 87%;
+    line-height: 1.4em;
 }
 
 a {
@@ -213,6 +214,10 @@ header {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.book_title_hatena {
+    line-height: 1.8em;
 }
 
 .book_photo_hatena {

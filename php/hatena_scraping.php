@@ -6,44 +6,32 @@
 		$title_src = '';
 		$photo_src = '';
 		foreach (_todays_book_urls() as $url) {
-			$title_src .= each_title_src($url);
-			$photo_src .= each_photo_src($url);
+			$src = each_src($url);
+			$title_src .= $src[0];
+			$photo_src .= $src[1];
 		}
 		return $title_src."<div class='book_photo_list'>".$photo_src."</div>";
 	}
-	function todays_book_title(){
+
+	function todays_book_title_and_photo_hatena(){
 		$title_src = '';
-		foreach (_todays_book_urls() as $url) {
-			$title_src .= each_title_src($url);
-		}
-		return $title_src;
-	}
-	function todays_book_photo_hatena(){
 		$photo_src = '';
 		foreach (_todays_book_urls() as $url) {
-			$photo_src .= each_photo_src_hatena($url);
+			$src = each_src($url);
+			$title_src .= str_replace("target='_blank'", "target='_blank' class='book_title_hatena'", $src[0]);
+			$photo_src .= str_replace("class='book_photo'", "class='book_photo_hatena'", $src[1]);
 		}
-		return $photo_src;
+		return array($title_src, $photo_src);
 	}
 
-	function each_title_src($url){
-			$html = file_get_html($url);
-			$title = $html->find('.entry-title-link', 0)->innertext;
-			return "<a href='$url' target='_blank'>$title</a><br />";
-	}
-
-	function each_photo_src($url){
-			$html = file_get_html($url);
-			$img_url = $html->find('.hatena-fotolife', 0)->src;
-			$title = $html->find('.entry-title-link', 0)->innertext;
-			return "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo'></a>";
-	}
-
-	function each_photo_src_hatena($url){
-			$html = file_get_html($url);
-			$img_url = $html->find('.hatena-fotolife', 0)->src;
-			$title = $html->find('.entry-title-link', 0)->innertext;
-			return "<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo_hatena'></a>";
+	function each_src($url){
+		$html = file_get_html($url);
+		$img_url = $html->find('.hatena-fotolife', 0)->src;
+		$title = $html->find('.entry-title-link', 0)->innertext;
+		return array(
+			"<a href='$url' target='_blank'>$title</a><br />",
+			"<a href='$url' target='_blank'><img title='$title' src='$img_url' class='book_photo'></a>"
+		);
 	}
 
 	function _todays_book_urls(){
