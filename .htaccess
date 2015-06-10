@@ -1,2 +1,4 @@
 RedirectMatch 301 ^/release/$ http://miraishokudo.com/#release
 RedirectMatch 301 ^/makanai/$ http://miraishokudo.com/makanai/info.html
+
+AddHandler php5.3-script .htm .html

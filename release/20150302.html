@@ -1,48 +1,14 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="未来食堂は、あなたの希望に合わせておかずをあつらえる小さな定食屋です。また、未来食堂では珍しい本を閲覧できます。画集や写真集が多く揃います。" />
-        <title>Githubを用いたリソース管理を開始－飲食店日本初の試み　未来食堂 - あなたのふつうをあつらえます</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/style.css">
-
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-
-    </head>
+    <!-- head -->
+    <?php include("../include/head.html"); ?>
 
     <body>
-        <!-- Header -->
         <div class="container info">
-            <div class="header">
-                <div class="navbar">
-                    <div class="navbar-inner">
-                        <div class='row'>
-                            <a href="../index.html" class='pull-left'><img src="../img/logo.png" alt="Logo" /></a>
-                            <div class='access mid_font text-left pull-right'>
-                                 <a href='https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E6%95%99%E8%82%B2%E4%BC%9A%E9%A4%A8/@35.694342,139.756234,17z/data=!3m1!4b1!4m2!3m1!1s0x60188c13b8af0a3f:0x9c26ea740eb79b4d' target="_blank">千代田区一ツ橋2-6-2&nbsp;&nbsp;日本教育会館B1</a><br/>
-                                9〜22時（日曜休,月火は14時迄）<br/>
-                                神保町駅徒歩3分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03-6905-7147
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class='visible-xs' style="height:40px;"></div>
+            <!-- Header -->
+            <?php include("../include/header.php"); ?>
+
             <h2>プレスリリース</h2>
             <div class="row">
                 <div class="col-xs-11 col-xs-offset-1 text-left">【IT関連】2015/03/02</div>
@@ -74,36 +40,9 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container text-left">
-                <div class="row">
-                    <div class="widget col-xs-12 col-sm-3 small_font">
-                        <p>住所 :<br/>東京都千代田区一ツ橋2-6-2 <br class='hidden-xs'/>日本教育会館 B1</p>
-                        <p>営業時間 :<br/>9〜22時（日曜休,月火は14時迄）<br/>※本の閲覧は平日ランチタイム以外でお願いします</p>
-                        <p>電話 :<br/>03-6905-7147</p><p>mail :<br/><A HREF="mailto:miraishokudo@gmail.com">miraishokudo@gmail.com</a></p>
-                    </div>
-                    <div class="widget col-xs-12 col-sm-4 small_font">
-                        <p>アクセス :<br/>
-                        半蔵門線神保町駅（A1出口）徒歩3分<br/>
-                        三田線神保町駅（A1出口）徒歩5分<br/>
-                        東西線竹橋駅（1b出口）徒歩5分<br/>
-                        東西線九段下駅（6番出口）徒歩7分</p>
-                        <a href="http://www.jec.or.jp/koutuu/" target='_brank'>日本教育会館様 交通案内地図</a>
-                    </div>
-                    <div class="widget col-xs-12 col-sm-5 map">
-                    <a href='https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E6%95%99%E8%82%B2%E4%BC%9A%E9%A4%A8/@35.694342,139.756234,17z/data=!3m1!4b1!4m2!3m1!1s0x60188c13b8af0a3f:0x9c26ea740eb79b4d' target="_blank">
-                        <img src="../img/access_map.png" width="100%">
-                    </a>
-                    <div class='visible-xs' style="height: 20px;"></div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
+        <!-- Footer -->
+        <?php include("../include/footer.php"); ?>
         <!-- Javascript -->
-        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="js/scripts.js"></script>
+        <?php include("../include/include_files.html"); ?>
     </body>
 </html>
