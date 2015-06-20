@@ -232,15 +232,23 @@ header {
     float: right;
 }
 
-.background_color_morning {
+.menu_title {
+    background: #11501A;
+    color: #fff;    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.background_color_blue {
     background-color: #eff7ff;
 }
 
-.background_color_lunch {
+.background_color_yellow {
     background-color: #ffffef;
 }
 
-.background_color_default {
+.background_color_red {
     background-color: #fff4ff;
 }
 
