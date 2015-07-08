@@ -240,6 +240,14 @@ header {
     -moz-border-radius: 5px;
 }
 
+.menu_title_special {
+    background: #501A11;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
 .background_color_blue {
     background-color: #eff7ff;
 }
