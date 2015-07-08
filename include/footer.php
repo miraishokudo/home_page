@@ -12,7 +12,7 @@
                 三田線神保町駅（A1出口）徒歩5分<br/>
                 東西線竹橋駅（1b出口）徒歩5分<br/>
                 東西線九段下駅（6番出口）徒歩7分</p>
-                <a href="http://www.jec.or.jp/koutuu/" target='_brank'>日本教育会館様 交通案内地図</a>
+                <a href="http://www.jec.or.jp/koutuu/" target='_blank'>日本教育会館様 交通案内地図</a>
             </div>
             <div class="widget col-xs-12 col-sm-5 map">
             <a href='https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E6%95%99%E8%82%B2%E4%BC%9A%E9%A4%A8/@35.694342,139.756234,17z/data=!3m1!4b1!4m2!3m1!1s0x60188c13b8af0a3f:0x9c26ea740eb79b4d' target="_blank">
