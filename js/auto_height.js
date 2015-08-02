@@ -12,5 +12,5 @@ window.addEventListener('resize', function () {
     }
     timer = setTimeout(function() {
         iframeResize();
-    }, 200);
+    }, 500);
 });
