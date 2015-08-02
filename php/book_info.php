@@ -26,8 +26,8 @@
             ■<?=$book_week_start_day?> 〜 <?=$book_week_end_day?>の本棚（背表紙の色で4冊づつ分けています）
         </div>
         <div class='book_title'><?=todays_book_title_and_photo()?></div>
-        <script src="../js/auto_height.js"></script>
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="../js/auto_height.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </body>
 </html>
