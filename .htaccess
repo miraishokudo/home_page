@@ -1,4 +1,5 @@
 RedirectMatch 301 ^/release/$ http://miraishokudo.com/#release
 RedirectMatch 301 ^/makanai/$ http://miraishokudo.com/makanai/info.html
+RedirectMatch 301 ^/makanai/guide$ https://docs.google.com/document/d/14fcqxpVBRPqe_CbDZZxHU1UlhZuCHWCUZshH_95r960
 
 AddHandler php5.3-script .htm .html
