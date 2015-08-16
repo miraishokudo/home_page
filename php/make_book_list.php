@@ -2,7 +2,7 @@
  	require_once 'google_calender.php';
  	require_once 'html_dom/simple_html_dom.php';
 
-	function exec(){
+	function _exec(){
 		$urls = array();
 		foreach (todays_categories() as $japanese) {
 			$book_category = convert($japanese);
@@ -40,4 +40,4 @@
 		);
 		return str_replace($search, $replace, $japanese);
  	}
-echo exec();
+echo _exec();
