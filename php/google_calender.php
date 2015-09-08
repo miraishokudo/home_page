@@ -20,7 +20,7 @@ function todays_categories(){
 		'timeMin' => date('c', strtotime('today +10 hour')),
 		'timeMax' => date('c', strtotime('noon'))
 	);
-	$events = $service->events->listEvents('miraishokudo@gmail.com', $optParams);
+	$events = $service->events->listEvents('4pa0tc6kcip34qgb3s2a5bqr1c@group.calendar.google.com', $optParams);
 	preg_match( '/【(.*?)】【(.*?)】【(.*?)】が読めます/', $events['items'][0]["summary"], $matches );
 	return array($matches[1], $matches[2], $matches[3]);
 }
