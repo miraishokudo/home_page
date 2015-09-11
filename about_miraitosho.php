@@ -15,7 +15,7 @@
 		こちらで紹介している本は、店内で自由にお読み頂けます。<br/>
 		勝手ながら店内スペースに限りがあるため、数冊づつに分けての展示となります。<br/>（背表紙の色で分けています。４冊１セットで番号を振っています）<br/><br/>
 		<div class='mid_font'>■展示スケジュール</div>
-		<iframe id='tosho_calender'style="border-width: 0; margin: 0 5px 30px;" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=450&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=miraishokudo%40gmail.com&amp;color=%232952A3&amp;ctz=Asia%2FTokyo"height="400" width="340"frameborder="0" scrolling="no" align="top"></iframe>
+		<iframe id='tosho_calender'style="border-width: 0; margin: 0 5px 30px;" src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=450&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=4pa0tc6kcip34qgb3s2a5bqr1c@group.calendar.google.com&amp;color=%232952A3&amp;ctz=Asia%2FTokyo"height="400" width="340"frameborder="0" scrolling="no" align="top"></iframe>
 		<div class='mid_font'><?=$title_src?></div><br/>
 		<div><?=$photo_src?></div><div style="clear:both;"></div><br/><br/>
 		未来食堂は2015年9月OPEN予定。普段は定食屋ですが、喫茶の利用も出来ますよ。<br/>
