@@ -105,15 +105,13 @@ header img {
 }
 header nav {
     float: left;
-    width: 530px;
     text-align: left;
-    margin-left: 20px;
 }
 header nav ul {
     padding: 35px 0;
     list-style-type: none;
     margin-bottom: 0px;
-    width: 530px;
+    width: 420px;
 }
 
 header nav ul li {
@@ -161,6 +159,10 @@ header {
 }
 
 /* ----- Slider ----- */
+
+.slider {
+    margin: 0px auto 100px;
+}
 
 .flexslider {
     width: 100%;
