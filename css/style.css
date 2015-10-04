@@ -193,6 +193,9 @@ header {
     color: #eaeaea;
     text-align: left;
 }
+.flex-caption-tennai {
+    bottom: 10%;
+}
 
 /* ----- Presentation ----- */
 
