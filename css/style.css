@@ -48,6 +48,12 @@ body.hatena{
     background-color:rgba(0,0,0,0.75);
 }
 
+#modal-close {
+    color: #484b8f;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
 a {
     color: #484b8f;
     text-decoration: underline;
