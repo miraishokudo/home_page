@@ -306,9 +306,9 @@ header {
     padding-bottom: 15px;
 }
 
-.info h3 {
+h4 {
     font-size: 20px;
-    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .info_sentence {
