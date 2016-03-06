@@ -54,6 +54,16 @@ body.hatena{
     cursor:pointer;
 }
 
+#yes {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#no {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
 a {
     color: #484b8f;
     text-decoration: underline;
@@ -117,7 +127,6 @@ header nav ul {
     padding: 35px 0;
     list-style-type: none;
     margin-bottom: 0px;
-    width: 520px;
 }
 
 header nav ul li {
