@@ -3,5 +3,5 @@ RedirectMatch 301 ^/makanai(/)?$ http://miraishokudo.com/makanai/info.html
 RedirectMatch 301 ^/makanai/guide(/)?$ https://docs.google.com/document/d/14fcqxpVBRPqe_CbDZZxHU1UlhZuCHWCUZshH_95r960
 RedirectMatch 301 ^/business_plan(/)?$ https://docs.google.com/document/d/1lRpDb-LxH2uFSHuQT3nj58P_KtjKT6YXpVvK85SPFmY/edit?usp=sharing
 RedirectMatch 301 ^/request_for_media(/)?$ https://docs.google.com/document/d/1f-0XOPJejnYSnUAxAl9ih_1_kjrNZXiT20Rto0SYzW8/edit
-RedirectMatch 301 ^/neta/web_designing(/)?$ https://docs.google.com/document/d/1FIyvMwPuIYv9p3y4Z9PGdkg1ooqbAPM9rccbxSPlP_k/edit?usp=sharing
+RedirectMatch 301 ^/neta/web_designing(/)?$ https://gist.github.com/miraishokudo/ddd90fb4d43bd94e7d551792f5d95f95
 AddHandler php5.3-script .htm .html
