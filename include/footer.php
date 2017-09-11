@@ -3,7 +3,7 @@
         <div class="row">
             <div class="widget col-xs-12 col-sm-3 small_font">
                 <p>住所 :<br/>東京都千代田区一ツ橋2-6-2 <br class='hidden-xs'/>日本教育会館 B1</p>
-                <p>営業時間 :<br/>11〜22時（日月祝休,火は15時迄）<br/>※本の閲覧は平日ランチタイム以外でお願いします</p>
+                <p>営業時間 :<br/>11〜16時（日月祝休,金土は22時迄）<br/>※本の閲覧は平日ランチタイム以外でお願いします</p>
                 <p>電話 :<br/>非公開<br/>※予約は貸切/素貸のみ可能。連絡はメールでお願いします。</p><p>mail :<br/><A HREF="mailto:miraishokudo@gmail.com">miraishokudo@gmail.com</a></p>
             </div>
             <div class="widget col-xs-12 col-sm-4 small_font">
